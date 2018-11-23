@@ -40,14 +40,19 @@ for (j = 0; j < h; j++) {
             // console.log(test_data[i])
 
             var g1 = d3.select('body')
-            .append('g')
-            .attr('width', window_width/w)
-            .attr('height', window_height/h)
-            .attr('transform', 'translate(' + window_width / w * i + ',' + window_height / h * j + ')')
+            .append('svg')
+                .attr('width', window_width/w)
+                .attr('height', window_height/h)
+                .attr('transform', 'translate(' + window_width / w * i + ',' + window_height / h * j + ')')
+                .attr('background-color', 'red')
+                // .append('g')
+                //     .attr('width', window_width/w)
+                //     .attr('height', window_height/h)
+            // .attr('transform', 'translate(' + window_width / w * i + ',' + window_height / h * j + ')')
             
-            console.log('translate(' + window_width / w * i + ',' + window_height / h * j + ')')
+            // console.log('translate(' + window_width / w * i + ',' + window_height / h * j + ')')
 
-            make_gauge(g1, val, tar);
+            // make_gauge(g1, val, tar);
         }
     }
 }
