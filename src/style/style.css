@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  margin : auto auto;
+  /* background-color: coral; */
+  display: block;
+}
+
+g.arc {
+  fill: steelblue;
+}
+
+g.pointer {
+  fill: #1a1a1a;
+  stroke: #1a1a1a;
+}
+
+g.label {
+  text-anchor: middle;
+  font-weight: bold;
+  fill: #666;
+  font-size: 120%;
+}
+
+g.value{
+  fill: rgb(146, 12, 12);
+  font-size: 175%;
+  font-weight: bold;
+}

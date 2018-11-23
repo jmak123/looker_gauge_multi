@@ -1,0 +1,23 @@
+{
+  "name": "simplebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.5.0",
+    "jquery": "^3.3.1",
+    "webpack": "^4.23.1"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
